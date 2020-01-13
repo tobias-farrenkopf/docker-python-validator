@@ -19,6 +19,7 @@ RUN echo "**** install Python ****" && \
     wheel \
     flake8 \
     flake8-bugbear \
-    black && \
+    black \
+    flake8-black && \
     apk del .build-dependencies && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi
