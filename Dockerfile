@@ -17,6 +17,7 @@ RUN echo "**** install Python ****" && \
     pip \
     setuptools \
     wheel \
+    coverage \
     flake8 \
     flake8-bugbear \
     black \
