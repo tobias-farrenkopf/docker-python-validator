@@ -21,7 +21,7 @@ RUN echo "**** install Python ****" && \
     coverage \
     flake8 \
     flake8-bugbear \
-    flake8-docstring \
+    flake8-docstrings \
     black \
     flake8-black && \
     apk del .build-dependencies && \
